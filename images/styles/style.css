@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.navigation {
+  background: #000000;
+}
+.navigation .logo {
+  color: white;
+}
+
+.container {
+  background: #000000;
+}
+
+.container .item {
+  color: white;
+}
+.container .item1 {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
