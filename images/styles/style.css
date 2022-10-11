@@ -28,16 +28,15 @@ li {
 }
 
 a {
-  position: relative;
-  top: 45px;
   margin: 5px;
   color: white;
   text-decoration: none;
 }
 
 .bar {
-  display: inline-flex;
+  display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .container {
@@ -71,9 +70,6 @@ a {
 .menu {
   color: grey;
   padding: -0.5px;
-  position: relative;
-  top: 45px;
-  margin-right: 10px;
 }
 
 .img {
@@ -96,5 +92,29 @@ a {
 @media screen and (max-width: 650px) {
   .list-item {
     display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    text-align: center;
+    width: 100%;
+    position: static;
+  }
+  .item {
+    width: 100%;
+    position: static;
+    text-align: center;
+    margin: auto;
+  }
+  .item1 {
+    margin: auto;
+  }
+  .img {
+    position: static;
+    margin: auto;
+    display: block;
+  }
+  .bar {
+    padding-right: 100px;
   }
 }/*# sourceMappingURL=style.css.map */

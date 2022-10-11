@@ -41,8 +41,8 @@ li {
 }
 
 a {
-    position: relative;
-    top:45px;
+    
+  
     margin:5px;
     color: white;
     text-decoration: none;
@@ -54,8 +54,9 @@ a {
 
 
 .bar  {
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
  
 }
 
@@ -96,9 +97,6 @@ a {
 .menu {
     color:grey;
     padding: -0.5px;
-    position: relative;
-    top: 45px;
-    margin-right:10px ;
    
     
 } 
@@ -128,6 +126,38 @@ a {
        
     }
 }
+
+@media screen and(max-width:768px) {
+    .container{
+        text-align: center;
+        width: 100%;
+        position: static;
+    }
+    .item {
+        width: 100%;
+        position: static;
+        text-align: center;
+        margin: auto;
+    }
+    .item1 {
+        margin: auto;
+    }
+    .img {
+        position: static;
+        margin: auto;
+        display: block;
+    }
+    .bar {
+        padding-right: 100px;
+    }
+
+}
+@media screen  and (min-width:769px){
+    
+}
+
+
+
 
 
     
