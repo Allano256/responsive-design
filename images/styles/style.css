@@ -3,11 +3,21 @@
   margin: 0;
 }
 
+.main-container {
+  background-color: #000000;
+}
+
 .navigation {
   background: #000000;
 }
 .navigation .logo {
   color: white;
+  font-family: "baloo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.25px;
 }
 
 .container {
@@ -16,7 +26,22 @@
 
 .container .item {
   color: white;
+  font-family: "poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: -0.8px;
+  width: 158px;
+  height: 40px;
 }
 .container .item1 {
   color: white;
+  font-family: "source sans pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  width: 211px;
+  height: 49px;
 }/*# sourceMappingURL=style.css.map */
