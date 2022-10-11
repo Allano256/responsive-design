@@ -21,6 +21,9 @@
 .container {
   width: 211px;
   height: 104px;
+  position: relative;
+  left: 100px;
+  top: 70px;
 }
 .container .item {
   color: white;
@@ -39,16 +42,19 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
-  width: 211px;
+  width: 235px;
   height: 49px;
 }
 
 .img {
   width: 320px;
   height: 366px;
+  position: relative;
+  left: 100px;
+  top: 70px;
+  margin-top: 50px;
 }
 
-.separate {
-  display: block;
-  justify-items: center;
-}/*# sourceMappingURL=style.css.map */
+/*@media screen and (width:) {
+
+}*//*# sourceMappingURL=style.css.map */
